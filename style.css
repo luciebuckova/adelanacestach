@@ -59,18 +59,20 @@ a {
 .menu ul {
     text-align: center;
     margin: 0;
+    padding-left: 0;
     border-top: solid 2px #9c8175;
 }
 
 .menu li {
     display: inline-block;
-    padding: 10px 30px;
 }
 
 .menu a {
+    display: block;
+    padding: 10px 30px;
     text-decoration: none;
     color: white;
-    font-style: italic;
+    font-style: italic;    
 }
 
 .omne img {
@@ -135,5 +137,3 @@ section {
 .menu a:active {
     background-color: #756158;
 }
-
-
